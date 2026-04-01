@@ -1,0 +1,174 @@
+# Navigating the Complexities of SAP for Energy & Utilities 90% of the Fortune 500 use SAP. It is software that changes how
+companies work and how they are organized. SAP's Enterprise Resource...
+
+### Navigating the Complexities of SAP for Energy & Utilities
+90% of the Fortune 500 use SAP. It is software that changes how
+companies work and how they are organized. SAP's Enterprise Resource
+Planning (ERP) solutions have become the backbone of business
+operations, handling everything from financials and supply chain
+management to production planning and sales. SAP is constantly evolving
+their software stack, with the current focus being SAP RISE.
+
+
+<figcaption>Photo by <a
+href="https://unsplash.com/@floratropicana?utm_source=medium&amp;utm_medium=referral"
+class="markup--anchor markup--figure-anchor"
+data-href="https://unsplash.com/@floratropicana?utm_source=medium&amp;utm_medium=referral"
+rel="photo-creator noopener" target="_blank">Anna Zaro</a> on <a
+href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral"
+class="markup--anchor markup--figure-anchor"
+data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral"
+rel="photo-source noopener" target="_blank">Unsplash</a></figcaption>
+
+
+For Energy & Utilities, navigating SAP can be a daunting task, often
+leading to a reluctance to fully embracing these mission-critical
+workloads. SAP scope across Energy& Utilities, the challenges of
+migrating these complex systems to the cloud, and the evolving
+commercial models like RISE with SAP all contribute to the difficulties
+faced by Energy & Utilities.
+
+#### The Pervasiveness of SAP
+Before delving into the challenges faced by Energy & Utilities, it's
+essential to understand the sheer pervasiveness of SAP across the
+business landscape. [77% of global business
+transactions](https://x.com/SAP/status/1432797092905373698) touch an SAP system in some way. [94% of
+SAP](https://www.sap.com/cmp/dg/na-corporate-brand/index.html?campaigncode=crm-ya23-int-2034165&source=ppc-1na-googleads--71700000116288418-58700008619927304-x_x-x-x-x&gad_source=1&gclid=CjwKCAjwooq3BhB3EiwAYqYoEjt1D17TIwlemTjql-dt0dApVwhZTRpV229EZq_1XyUCtyq-w1joqRoCy_oQAvD_BwE&gclsrc=aw.ds) customers cite innovation as a critical
+factor for their organizations' enterprise modernization efforts. While
+these numbers are impressive, they also highlight the complexities
+involved in managing and optimizing SAP systems.
+
+#### The Migration Conundrum
+For Energy & Utilities, the decision to migrate their SAP systems to the
+cloud can be a double-edged sword. On one hand, the potential benefits
+of cloud computing, such as scalability, cost optimization, and access
+to cutting-edge technologies, are undeniable. However, the process of
+migrating these mission-critical workloads is fraught with challenges.
+
+The migration process itself can be classified into two categories:
+homogeneous and heterogeneous. A homogeneous migration involves a
+straightforward lift-and-shift approach, where the existing SAP system
+is moved to the cloud without any underlying platform changes.
+Heterogeneous migrations, on the other hand, involve transitioning to a
+new operating system, database, or SAP software version, adding another
+layer of complexity to the process.
+
+#### Ecosystem Considerations
+One of the most significant challenges Energy & Utilities face when
+migrating their SAP systems is the intricate web of integrations and
+dependencies that surround these monolithic applications. When I talk to
+customers about ERP migration, we are not just focusing on getting the
+ECC (SAP's classic ERP solution) or S/4HANA (SAP's next-generation ERP
+solution) moving. Every customer will have either some solutions like
+Hyperion as a financial consolidation platform, BPC as a financial
+consolidation platform, but they also have several different solutions
+that they consume.
+
+This ecosystem of interconnected systems, ranging from sales and
+manufacturing to financial and analytics solutions, complicates the
+migration process. Energy & Utilities must carefully evaluate the
+real-time integrations and batch processing requirements to ensure
+seamless data flow and minimize disruptions to critical business
+operations.
+
+#### The Role of AWS in SAP Migrations
+AWS has been running SAP workloads in the cloud since 2008. One of the
+key differentiators that AWS offers for SAP workloads is its
+cloud-native, high-memory instances. AWS owns and builds its
+infrastructure from the ground up, offering unmatched performance and
+scalability for memory-intensive SAP HANA databases.
+
+AWS provides a range of services and solutions tailored specifically for
+SAP environments. These include [Amazon
+AppFlow](https://docs.aws.amazon.com/appflow/latest/userguide/sapodata.html), a low-code solution for extracting data
+from SAP systems and integrating it into data lakes, and Amazon
+CloudWatch Application Insights for monitoring SAP HANA databases (with
+plans to extend this to the application layer in the future).
+
+#### The Rise of RISE with SAP
+SAP launched a new commercial offering called "RISE with SAP" in 2021.
+RISE shifts customers from a perpetual licensing model to a
+subscription-based, consumption-driven model. Under this offering, SAP
+provides the software licenses and manages the underlying infrastructure
+and technical services.
+
+While RISE with SAP presents an opportunity for Energy & Utilities to
+streamline their SAP operations.
+
+#### The Data Lake Opportunity
+As enterprises look to get the most out of their data investments, the
+concept of a centralized data lake has gained traction. For Energy &
+Utilities with SAP systems, leveraging tools like Amazon AppFlow to
+connect data from different applications and integrate it into a data
+lake can unlock new opportunities for analytics, AI, and machine
+learning.
+
+#### Navigating the Complexities with AWS Expertise
+While the challenges faced by Energy & Utilities in managing and
+migrating their SAP systems are multifaceted, AWS offers a wealth of
+expertise and resources to help navigate these complexities.
+
+By leveraging the collective knowledge of AWS solution architects,
+Energy & Utilities can gain insights into best practices, proven
+architectures, and innovative approaches to optimizing their SAP
+environments. This collaborative approach enables Energy & Utilities to
+strike the right balance between leveraging SAP's functionalities and
+embracing the agility and scalability of cloud-native solutions.
+
+#### The AWS Advantage: Nitro and High-Memory Instances
+One of the key differentiators that AWS brings to the table for SAP
+workloads is its Nitro system and cloud-native high-memory instances.
+AWS is the only cloud provider that offers cloud-native, high-memory
+instances like 12 TB, 18 TB, and 24 TB. The AWS Nitro system also
+provides a key advantage, as it ensures that the entire 8 vCPU and 64 GB
+of memory are available to the SAP application, with no overhead from
+the hypervisor.
+
+#### Automation and Accelerated Deployments
+AWS offers a range of automation and deployment tools to streamline the
+process of setting up and managing SAP environments. One such tool is
+the AWS Launch Wizard, which allows customers to deploy a new SAP system
+in less than an hour, including the operating system, database, and SAP
+configuration.
+
+AWS provides backup and recovery solutions for SAP HANA databases,
+allowing customers to directly backup to Amazon S3. For traditional
+databases like Oracle and SQL Server, AWS offers solutions to backup to
+local disks and then move the backups to S3, ensuring robust data
+protection.
+
+#### Embracing SAP Clean Core and Enterprise Analytics
+As Energy & Utilities grapple with the complexities of SAP, another area
+of focus is the concept of "SAP Clean Core." This approach involves
+minimizing customizations and modifications to the core SAP codebase,
+which can simplify upgrades and reduce the overall complexity of the
+system. AWS and SAP are collaborating to enable enterprise-wide
+analytics by integrating SAP data into data lakes.
+
+#### Navigating the SAP Ecosystem with AWS Expertise
+In the ever-evolving landscape of enterprise software, SAP remains a
+critical component for countless organizations. For Energy & Utilities
+tasked with managing and optimizing these mission-critical workloads,
+the complexities can seem daunting. However, by partnering with AWS and
+using its expertise in SAP migrations, cloud-native architectures, and
+data lake integrations, Energy & Utilities can navigate these challenges
+with confidence.
+
+SAP can be complicated, but customers don't need to navigate it alone.
+
+### Related Stories
+- [[12 Supply Chain Opportunities in Energy &
+  Utilities](https://medium.com/@kylejones_47003/12-supply-chain-opportunities-in-energy-utilities-6794edf52aa8)]
+- [[SCADA on AWS: Architectural Approaches for Security and Resilience
+  Control
+  Systems](https://medium.com/@kylejones_47003/scada-systems-to-the-aws-cloud-architectural-approaches-for-enhanced-security-and-resilience-9d97878eb53e)]
+- [[Modernizing High-Performance Computing for the Power Grid:
+  Leveraging AWS to Enable
+  Scalable...](https://medium.com/@kylejones_47003/modernizing-high-performance-computing-for-the-power-grid-leveraging-aws-to-enable-scalable-516944d7ac14)]
+::::::::By [Kyle Jones](https://medium.com/@kyle-t-jones) on
+[September 12, 2024](https://medium.com/p/e8d60201cfc8).
+
+[Canonical
+link](https://medium.com/@kyle-t-jones/navigating-the-complexities-of-sap-for-energy-utilities-e8d60201cfc8)
+
+Exported from [Medium](https://medium.com) on November 10, 2025.
